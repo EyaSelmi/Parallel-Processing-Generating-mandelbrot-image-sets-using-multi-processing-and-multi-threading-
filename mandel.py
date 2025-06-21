@@ -41,8 +41,8 @@ def main():
     parser.add_argument('-x', type=float, default=0, help='X center')
     parser.add_argument('-y', type=float, default=0, help='Y center')
     parser.add_argument('-s', type=float, default=4, help='Scale')
-    parser.add_argument('-W', type=int, default=500, help='Image width')
-    parser.add_argument('-H', type=int, default=500, help='Image height')
+    parser.add_argument('-W', type=int, default=800, help='Image width')
+    parser.add_argument('-H', type=int, default=600, help='Image height')
     parser.add_argument('-o', type=str, default='mandel.png', help='Output file')
     args = parser.parse_args()
 

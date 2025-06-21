@@ -74,12 +74,12 @@ if __name__ == "__main__":
     logging.info("Program started (Dining Philosophers version).")
     program_start = time.time()
     try:
-        xcenter = -0.5
-        ycenter = 0.0
-        scale = 1.5
+        xcenter = 0
+        ycenter = 0
+        scale = 4
         image_width = 800
         image_height = 600
-        max_iter = 100
+        max_iter = 1000
         num_philosophers = 5
 
         logging.info("Running Mandelbrot with Dining Philosophers synchronization...")

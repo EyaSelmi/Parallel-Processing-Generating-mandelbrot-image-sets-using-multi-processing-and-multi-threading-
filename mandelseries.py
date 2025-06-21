@@ -155,12 +155,12 @@ if __name__ == "__main__":
     logging.info("Program started.")
     program_start = time.time()
     try:
-        xcenter = -0.5
-        ycenter = 0.0
-        scale = 1.5
+        xcenter = 0
+        ycenter = 0
+        scale = 4
         image_width = 800
         image_height = 600
-        max_iter = 100
+        max_iter = 1000
         nproc = 4
         logging.info("Running multiprocessing Mandelbrot...")
         start = time.time()
